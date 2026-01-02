@@ -7,14 +7,14 @@ export default function Footer() {
 
         {/* Logo / Brand */}
         <div className="flex flex-col items-center md:items-start">
-          <h2 className="text-2xl font-bold mb-2">My Company</h2>
+          <h2 className="text-2xl font-bold mb-2">INSURANCEBD</h2>
           <p className="text-gray-400 text-sm">
-            Delivering quality service since 2025
+         Travel Assurance ensures reliable support and guidance for a safe, smooth journey.
           </p>
         </div>
 
         {/* Quick Links */}
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center md:items-start hidden">
           <h3 className="font-semibold mb-2">Quick Links</h3>
           <ul className="space-y-1 text-gray-300">
             <li><a href="#" className="hover:text-pink-500 transition-colors">Home</a></li>
@@ -41,7 +41,7 @@ export default function Footer() {
 
       {/* Footer Bottom */}
       <div className="mt-10 border-t border-gray-700 pt-4 text-center text-gray-500 text-sm">
-        © 2026 My Company. All rights reserved.
+        © 2026 INSURANCEBD. All rights reserved.
       </div>
     </footer>
   );

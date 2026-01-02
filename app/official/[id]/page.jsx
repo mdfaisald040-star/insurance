@@ -24,7 +24,7 @@ export default function PdfPage() {
     <div className="bg-white">
 
    
-<div className="xl:mx-[240px] lg:mx-[240px] md:mx-[50px] mx-[10px] ">
+<div className="xl:mx-[240px] lg:mx-[240px] md:mx-[50px] mx-[10px] my-[50px]">
 <div className="text-center">
         <h2 className="bg-[linear-gradient(45deg,#e43a6c_25%,#faa82f_70%)] bg-clip-text text-transparent text-3xl font-bold">
   OUR CERTIFICATE OF INSURANCE
@@ -119,7 +119,7 @@ US & Canada</p>
 
 
 
-<div className="mx-[240px] text-[#ff0a12] grid xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 items-baseline">
+<div className="mx-[240px] my-[50px] text-[#ff0a12] grid xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 items-baseline">
 
   <div className="text-center">
 <div>
