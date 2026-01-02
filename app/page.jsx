@@ -7,28 +7,36 @@ export default function Home() {
   const pdfList = [
     { id: 1, name: "PDF One", file: "/cv.pdf" },
     { id: 2, name: "PDF Two", file: "/AdmitCard_ACC_ALQJD94V.pdf" },
+    { id: 0, name: "PDF Two", file: "/simple.pdf" }
   ];
 
   // ✅ page load হতেই প্রথম PDF দেখাবে
   useEffect(() => {
     setPdfUrl(pdfList[0]); // object set
   }, []);
+const pdf = pdfList.find(data => data.id === 0);
+
 
   return (
     <>
-      <h3>Select PDF</h3>
+      <h3>Insurance</h3>
 
-      {pdfUrl && (
+
+
+      {pdf && (
         <div className="mx-[440px]">
 
           <iframe
-          src={pdfUrl.file}
+          src={pdf.file}
           width="100%"
           height="600px"
           style={{ border: "1px solid #ccc", marginTop: "15px" }}
         />
         </div>
       )}
+
+
+
     </>
   );
 }
