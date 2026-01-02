@@ -10,8 +10,8 @@ export default function PdfPage() {
 
   const pdfList = [
      { id: "0", name: "PDF Two", file: "/simple.pdf" },
-   { id: "1", name: "PDF Two", file: "/simple.pdf" },
-    { id: "2", name: "PDF Two", file: "/AdmitCard_ACC_ALQJD94V.pdf" },
+   { id: "mZ8Q2XK7rP9D4sEWTa", name: "PDF Two", file: "/simple.pdf" },
+    { id: "2Q7P8Z9WmK2dXTEs4Ra", name: "PDF Two", file: "/AdmitCard_ACC_ALQJD94V.pdf" },
   ];
 
   useEffect(() => {
