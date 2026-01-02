@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,6 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+       <link
+          rel="icon"
+          href="https://i.ibb.co/vCRtf74V/Chat-GPT-Image-Jan-2-2026-03-38-59-PM.png"
+          type="image/png"
+        />
       <body
         className={  `${geistSans.variable} ${geistMono.variable} antialiased`}
       >
