@@ -22,7 +22,8 @@ export default function PdfPage() {
   return (
     <>
 
-    <div>
+
+  <div>
 
 
       <li className="px-4 py-2 bg-red-600 text-white font-semibold hover:bg-red-700 transition">
@@ -30,6 +31,19 @@ export default function PdfPage() {
 </li>
 
     </div>
+
+<header className="bg-white shadow">
+<div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<h1 className="text-2xl font-bold text-blue-600">INSURANCE</h1>
+<nav className="hidden md:flex gap-6 text-sm font-medium">
+<a href="#" className="hover:text-blue-600">Insurance</a>
+<a href="#" className="hover:text-blue-600">Plans</a>
+<a href="#" className="hover:text-blue-600">About</a>
+
+</nav>
+</div>
+</header>
+  
 
 
     <div className="bg-white">
