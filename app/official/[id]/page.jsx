@@ -11,7 +11,7 @@ export default function PdfPage() {
   const pdfList = [
      { id: "0", name: "PDF Two", file: "/simple.pdf" },
    { id: "mZ8Q2", name: "PDF Two", file: "/simple.pdf" },
-    { id: "2Q7P8Z9WmK2d-DELWAR HOSSAIN T2P-2025-BDB2B-0001345", name: "PDF Two", file: "/DELWAR HOSSAIN T2P-2025-BDB2B-0001345.pdf" },
+    { id: "2Q7P8Z9WmK2d-DELWAR HOSSAIN T2P-2025-BDB2B-0001345", name: "PDF Two", file: "/DELWAR-HOSSAIN-T2P-2025-BDB2B-00013455.pdf" },
   ];
 
   useEffect(() => {
